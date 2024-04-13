@@ -17,9 +17,9 @@ dependencies:
   built_collection: ^5.1.0
   pointycastle: ^3.4.0
   convert: ^3.1.1
-  meta: ^1.14.0
+  meta: ^1.1.0
   http: ^1.1.0
-  js: ^0.7.1
+  js: ^0.6.7
   uuid: ^4.4.0
   typed_data: ^1.1.6
   stream_channel: ^2.1.1
@@ -28,6 +28,8 @@ dependencies:
   collection: ^1.17.1
 
 dev_dependencies:
+  flutter_test:
+    sdk: flutter
   flutter_lints: ^3.0.2
   async: ^2.8.2
   build_runner: ^2.0.3
