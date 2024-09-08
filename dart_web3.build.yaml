@@ -2,17 +2,17 @@
 # builds for packages depending on dart_web3.
 
 builders:
-  solc_builder:
-    build_extensions:
-      ".sol": [".abi.json"]
-    import: 'tool/solc_builder.dart'
-    builder_factories: ["solcBuilder"]
-    auto_apply: root_package
-    build_to: cache
-    runs_before: [":abi_generator"]
-    defaults:
-      generate_for:
-        - "lib/src/generated/**"
+  # solc_builder:
+  #   build_extensions:
+  #     ".sol": [".abi.json"]
+  #   import: 'tool/solc_builder.dart'
+  #   builder_factories: ["solcBuilder"]
+  #   auto_apply: root_package
+  #   build_to: cache
+  #   runs_before: [":abi_generator"]
+  #   defaults:
+  #     generate_for:
+  #       - "lib/src/generated/**"
 
   abi_generator:
     build_extensions: 
